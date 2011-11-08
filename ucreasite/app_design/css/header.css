@@ -1,0 +1,245 @@
+/*          _\|/_
+            (0 0)
+--------o00o-{_}-o00o-----------------------
+
+UCREASITE v1.0 (2011)
+Universidad Creativa 2011 CSS Pagina UCREATIVA. 
+--------------------------------------------
+*/
+@charset "UTF-8";  
+
+
+/*header*/
+#header{
+	position:relative;
+	height:260px;
+	width:100%;
+	border:none;
+    overflow: hidden;
+    top: -20px;
+	}
+
+#services_bar{
+	position:absolute;
+	width:100%;
+	height:29px;
+}
+	
+#micro_sites{
+	position:absolute;
+	width:280px;
+	padding:5px;
+	padding-left:14px;
+	height:30px;
+	border:none;
+	}
+			
+.micro_sites_links{
+	position:relative;
+	width:109px;
+    height:77px;
+	font-size:14px;
+    background: url(../img/label.png) no-repeat;
+	text-decoration:none;
+	color: #FFF;
+	float:left;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 35px;
+    top:-34px;
+    text-shadow: #646464 1px 1px 1px;
+    opacity: 1;
+	}
+
+.micro_sites_links:hover{
+   color:#fefefe;
+   opacity: 0.8;
+}
+
+.micro_sites_links_inactive{
+      position:relative;
+      width:70px;
+      font-size:12px;
+      text-decoration:none;
+      color: #999;
+      float:left;
+   }
+
+#services_logos{
+	position:absolute;
+	right:10px;
+	padding:5px;
+	padding-right:14px;
+    width:auto;
+	height:31px;
+	border:none;
+	}	
+	
+.service_icon{
+	position:relative;
+	width:90px;
+	height:31px;
+	float:left;
+	}	
+	
+#login_box{
+	position:absolute;
+	background-color: #dcdcdc;
+	width:150px;
+	padding:5px;
+	padding-left:14px;
+	height:25px;
+	top:44px;
+	right:120px;
+	-webkit-box-shadow: 0px 5px 3px 0px #CCC;
+    -moz-box-shadow: 0px 5px 3px 0px #CCC;
+    box-shadow: 0px 5px 3px 0px #CCC;
+	}
+
+.user_login_icon{
+	position:relative;
+	width:25px;
+	height:25px;
+	float:left;
+    left:-5px;
+	}		
+
+.user_name{
+	position:relative;
+	width:90px;
+	font-size:10px;
+    margin: auto;
+	text-decoration:none;
+	color: #333;
+    top:5px;
+    font-weight: bold;
+	}
+
+#contact_box{
+	position:absolute;
+	top:70px;
+	right:10px;
+	padding:2px;
+	padding-right:8px;
+    width:22px;
+	height:100px;
+	}	
+	
+.contact_icon{
+    position:relative;
+	margin:4px;
+	width:20px;
+	height:20px;
+	float:left;
+  }
+
+.contact_icon a:hover{
+    /*border-bottom: 5px solid;*/
+}
+	
+#ucreativa_logo{
+	position:relative;
+	width:25px;
+	height:25px;
+	top:70px;
+	left:247px;
+	}	
+	
+#main_menu{
+	position:absolute;
+	padding-right:14px;
+	top:215px;
+    width:787px;
+	height:40px;
+	border-bottom: 1px solid #ccc;
+	}
+	
+.menu_item{
+	position:relative;
+    font-family:"Century Gothic", Verdana, "Segoe UI","Arial", sans-serif;
+	font-size:13px;
+	color: #666;
+	text-decoration:none;
+	float:left;
+	margin:10px;
+	padding:3px;
+	background:url(../img/close_min.png) no-repeat;
+	}
+
+.menu_item_plus{
+	position:relative;
+    font-family:"Century Gothic", Verdana, "Segoe UI","Arial", sans-serif;
+	font-size:13px;
+	color: #666;
+	text-decoration:none;
+	float:left;
+	margin:10px;
+	padding:3px;
+	background:url(../img/close_min_plus.png) no-repeat;
+}
+
+.menu_item_inactive{
+	position:relative;
+    font-family:"Century Gothic", Verdana, "Segoe UI","Arial", sans-serif;
+	font-size:13px;
+	color: #CCC;
+	text-decoration:none;
+	float:left;
+	margin:10px;
+	padding:3px;
+	background:url(../img/close_min.png) no-repeat;
+	}
+
+#tpt_chat{
+    z-index: 20;
+    position: absolute;
+    right: 24px;
+    top: 100px;
+    display:none;
+    width: 75px;
+    height: 48px;
+    background: url(../img/livezilla.png) no-repeat;
+    color: #fff;
+    font-size: 16px;
+    text-shadow: #646464 1px 1px 1px;
+    text-align:center;
+    margin-right: 10px;
+}
+
+#tpt_mail{
+    z-index: 20;
+    position: absolute;
+    right: 24px;
+    top: 125px;
+    display:none;
+    width: 75px;
+    height: 548px;
+    background: url(../img/livezilla.png) no-repeat;
+    color: #fff;
+    font-size: 16px;
+    text-shadow: #646464 1px 1px 1px;
+    text-align:center;
+    margin-right: 10px;
+}
+
+#tpt_phones{
+    z-index: 20;
+    position: absolute;
+    right: 24px;
+    top: 145px;
+    display:none;
+    width: 115px;
+    height: 69px;
+    background: url(../img/telefonos.png) no-repeat;
+    color: #fff;
+    font-size: 14px;
+    text-shadow: #646464 1px 1px 1px;
+    text-align:center;
+    margin-right: 5px;
+}
+
+.tpt_text{
+   position: absolute;
+   top: -5px;
+   left: 15px;
+}
