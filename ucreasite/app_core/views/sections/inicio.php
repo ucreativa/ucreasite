@@ -51,7 +51,7 @@
                     ?>
     			</ul>
     			<!-- END AnythingSlider  -->
-                <div style="display:block;" id="link_layer">
+                <div style="display:none;" id="link_layer">
                   <?php echo cls_HTML::html_link_tag("", "link_arquitectura", "link_banner", "?s=carreras&idc=1", "_self", "Arquitectura", ""); ?>
                   <?php echo cls_HTML::html_link_tag("", "link_espacio", "link_banner", "?s=carreras&idc=3", "_self", "Diseño del espacio interno", ""); ?>
                   <?php echo cls_HTML::html_link_tag("", "link_dibujo", "link_banner", "?s=carreras&idc=4", "_self", "Dibujo arquitectónico", ""); ?>

@@ -36,7 +36,7 @@
                         $i=0;
                         foreach($section_files as $value){
 
-                            $src=__RSC_FLE_HOST_PATH . "sections/section_".$section_key."/" . $value[1];
+                            $src="app_core/resources/files/sections/section_".$section_key."/" . $value[1];
 			    //$src="http://www.bernethe.com/revisar/ucreativa/ucreativa_website.swf";
 
                             //$tam=" width='".$size[0]."' height='".$size[1] ."'";
