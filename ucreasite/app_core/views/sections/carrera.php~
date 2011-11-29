@@ -69,7 +69,6 @@
                                 $('#curse_img').css('border','5px solid #CCC');\" 
                                 onmouseout=\"
                                 $('#curse_img').css('width','650');
-                                $('#curse_img').css('border','none');
                                 $('#curse_img').css('left','0px');\""),$array_texts);
 
 
